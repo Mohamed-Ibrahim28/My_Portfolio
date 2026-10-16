@@ -1,0 +1,439 @@
+export const contact = {
+  name: { ar: 'محمد إبراهيم', en: 'Mohamed Ibrahim' },
+  nameFull: { ar: 'محمد إبراهيم محمد أحمد', en: 'Mohamed Ibrahim Mohamed Ahmed' },
+  title: { ar: 'مطوّر برمجيات ومتخصص ذكاء اصطناعي', en: 'Software Developer & AI Specialist' },
+  location: { ar: 'مصر، المنوفية', en: 'Egypt — Menoufia' },
+  email: 'eng.mohamed.ibrahim2005@gmail.com',
+  phone: '+201125597399',
+  phoneLabel: '+20 112 559 7399',
+  whatsapp: '+201125597399',
+  github: 'https://github.com/Mohamed-Ibrahim28',
+  linkedin: 'https://www.linkedin.com/in/mohamed-ibrahim-0b6b50308/',
+}
+
+export const nav = [
+  { id: 'home', ar: 'الرئيسية', en: 'Home' },
+  { id: 'about', ar: 'عني', en: 'About' },
+  { id: 'skills', ar: 'المهارات', en: 'Skills' },
+  { id: 'experience', ar: 'الخبرة', en: 'Experience' },
+  { id: 'projects', ar: 'المشاريع', en: 'Projects' },
+  { id: 'certificates', ar: 'الشهادات', en: 'Certificates' },
+  { id: 'contact', ar: 'تواصل', en: 'Contact' },
+]
+
+export const hero = {
+  greeting: { ar: 'مرحبًا، أنا', en: "Hi, I'm" },
+  role: { ar: 'مطوّر برمجيات ومتخصص ذكاء اصطناعي', en: 'Software Developer & AI Specialist' },
+  tagline: {
+    ar: 'أبني تطبيقات مدعومة بالذكاء الاصطناعي، وأنظمة أتمتة، ولوحات تحكم تفاعلية — من الفكرة إلى منتج شغّال.',
+    en: 'I build AI-powered apps, automation systems and interactive dashboards — from idea to shipping product.',
+  },
+  ctaProjects: { ar: 'شوف أعمالي', en: 'View my work' },
+  ctaContact: { ar: 'تواصل معي', en: 'Get in touch' },
+  scroll: { ar: 'انزل للأسفل', en: 'Scroll down' },
+  roles: {
+    ar: ['متخصص ذكاء اصطناعي', 'مطوّر بايثون', 'أتمتة العمليات', 'Media Buyer', 'تحليل البيانات', 'اختبار البرمجيات (QA)', 'تقييم مخرجات الـ AI'],
+    en: ['AI Specialist', 'Python Developer', 'Automation Builder', 'Media Buyer', 'Data Analyst', 'Software QA Testing', 'LLM Evaluation'],
+  },
+}
+
+export const about = {
+  kicker: { ar: 'من أنا', en: 'About me' },
+  title: { ar: 'أحوّل الأفكار إلى أنظمة تعمل', en: 'Turning ideas into working systems' },
+  paragraphs: {
+    ar: [
+      'أنا محمد إبراهيم، طالب هندسة إلكترونيات — قسم حاسبات بجامعة المنوفية (التخرّج المتوقع مارس 2027)، ومهتم بمجال الذكاء الاصطناعي وتطوير البرمجيات وتحليل البيانات.',
+      'بشتغل حاليًا في شركة BDI، وشغلي فيها بيجمع Media Buying و AI Automation و Vibe Coding. بحب أحوّل أي فكرة لأداة عملية وبسيطة وذكية — واشتغلت كمان في اختبار البرمجيات وتقييم مخرجات الـ AI.',
+    ],
+    en: [
+      "I'm Mohamed Ibrahim, an Electronics Engineering student — Computers Department at Menoufia University (expected graduation March 2027), passionate about Artificial Intelligence, software development and data analysis.",
+      "I currently work at BDI, where my role combines Media Buying, AI Automation and Vibe Coding. I love turning any idea into a simple, smart, practical tool — I've also worked in software testing and AI output evaluation.",
+    ],
+  },
+  highlights: {
+    ar: [
+      { k: 'الشغل الحالي', v: 'Media Buyer · AI Automation & Vibe Coding in BDI' },
+      { k: 'التعليم', v: 'هندسة إلكترونيات — قسم حاسبات، جامعة المنوفية' },
+      { k: 'التخرّج', v: 'مارس 2027 (أكتوبر 2022 — 4.5 سنة)' },
+      { k: 'الاهتمامات', v: 'AI · أتمتة · تحليل بيانات · QA' },
+    ],
+    en: [
+      { k: 'Current work', v: 'Media Buyer · AI Automation & Vibe Coding in BDI' },
+      { k: 'Education', v: 'Electronics Engineering — Computers Dept., Menoufia University' },
+      { k: 'Graduation', v: 'March 2027 (Oct 2022 — 4.5 years)' },
+      { k: 'Interests', v: 'AI · Automation · Data · QA' },
+    ],
+  },
+}
+
+export const stats = [
+  { value: 8, suffix: '+', ar: 'مشاريع منفّذة', en: 'Projects built' },
+  { value: 23, suffix: '', ar: 'شهادة معتمدة', en: 'Certificates' },
+  { value: 3.89, suffix: '/4', decimals: 2, ar: 'متوسط تقييم شغلي', en: 'Avg. work rating' },
+  { text: { ar: 'فوق المتوسط — B2', en: 'Upper-Intermediate — B2' }, ar: 'مستوى الإنجليزية', en: 'English level' },
+]
+
+export const skills = {
+  kicker: { ar: 'الأدوات والتقنيات', en: 'Tools & technologies' },
+  title: { ar: 'مهاراتي التقنية', en: 'Technical skills' },
+  subtitle: {
+    ar: 'حزمة من اللغات والأدوات اللي بستخدمها فعليًا في الشغل.',
+    en: 'A toolkit of languages and tools I actually use on the job.',
+  },
+  groups: [
+    {
+      ar: 'الذكاء الاصطناعي وتعلّم الآلة',
+      en: 'AI & Machine Learning',
+      icon: 'ai',
+      items: ['Python', 'Machine Learning', 'Prompt Engineering', 'LLM Evaluation', 'RAG', 'Pandas / NumPy', 'Wolfram Language'],
+    },
+    {
+      ar: 'تطوير البرمجيات',
+      en: 'Software Development',
+      icon: 'code',
+      items: ['Python', 'JavaScript', 'React', 'HTML / CSS', 'Flask', 'REST APIs', 'Git / GitHub'],
+    },
+    {
+      ar: 'البيانات والتحليل',
+      en: 'Data & Analysis',
+      icon: 'data',
+      items: ['SQL / SQLite', 'Data Cleaning', 'Excel / xlsxwriter', 'Dashboards', 'Data Visualization', 'KPI Reporting'],
+    },
+    {
+      ar: 'الأتمتة والاختبار',
+      en: 'Automation & Testing',
+      icon: 'auto',
+      items: ['n8n / Workflows', 'Web Scraping', 'Functional Testing', 'Bug Reporting', 'KYC / Payment Testing', 'Test Cases'],
+    },
+  ],
+}
+
+export const experience = {
+  kicker: { ar: 'المسار المهني', en: 'Career path' },
+  title: { ar: 'الخبرة والتجارب', en: 'Experience & journey' },
+  subtitle: {
+    ar: 'من تقييم الذكاء الاصطناعي واختبار البرمجيات إلى بناء الأنظمة ولوحات التحكم.',
+    en: 'From AI evaluation and software testing to building systems and dashboards.',
+  },
+  items: [
+    {
+      period: { ar: '2026', en: '2026' },
+      role: { ar: 'مقيّم ذكاء اصطناعي — AI Evaluator', en: 'AI Evaluator' },
+      org: 'Outlier',
+      type: { ar: 'عن بُعد / Freelance', en: 'Remote / Freelance' },
+      desc: {
+        ar: 'تقييم مخرجات نماذج الذكاء الاصطناعي ومراجعة جودتها، بكتابة تعليقات دقيقة ورفع مستوى الدقة. حققت متوسط تقييم 3.89 من 4 (المستهدف 2.00) ودرجة أبعاد 83 من 100 (المستهدف 70)، بمعدل التزام كامل بالمواعيد.',
+        en: 'Evaluated LLM outputs and reviewed their quality with precise feedback. Averaged a 3.89/4 score (target 2.00) and an 83/100 dimension audit score (target 70), with consistent on-time delivery.',
+      },
+      tags: ['LLM Evaluation', 'Quality Review', 'Prompt & Response'],
+      link: null,
+    },
+    {
+      period: { ar: '2026', en: '2026' },
+      role: { ar: 'مختبر برمجيات — Software QA Tester', en: 'Software QA Tester' },
+      org: 'test IO · uTest · Tester Work',
+      type: { ar: 'عن بُعد / Freelance', en: 'Remote / Freelance' },
+      desc: {
+        ar: 'تنفيذ اختبارات وظيفية ودفع و KYC على تطبيقات حقيقية عبر منصات test IO وuTest وTester Work، واكتشاف وكتابة تقارير الأخطاء (Bug Reports) بخطوات إعادة إنتاج واضحة. حققت مكاسب موثّقة من المنصات شملت مكافأة «Bug محبوب».',
+        en: 'Ran functional, payment and KYC testing on real apps across test IO, uTest and Tester Work, then reported bugs with clear reproduction steps. Earned verified payouts including a "Liked Bug" bonus.',
+      },
+      tags: ['Functional Testing', 'Payment Testing', 'KYC Testing', 'Bug Reports'],
+      link: null,
+    },
+    {
+      period: { ar: '2026', en: '2026' },
+      role: { ar: 'Media Buyer · AI Automation & Vibe Coding', en: 'Media Buyer · AI Automation & Vibe Coding' },
+      org: 'BDI',
+      type: { ar: 'شغل حالي', en: 'Current role' },
+      desc: {
+        ar: 'شغلي في شركة BDI بيجمع Media Buying و AI Automation و Vibe Coding. من أبرز اللي عملته: تصميم وبناء صفحات هبوط عربية عالية التحويل لبرامج الشركة، بأنيميشن وحركات ناعمة وربط CTA بالواتساب، وصفحات شكر مخصّصة للحملات.',
+        en: 'My role at BDI combines Media Buying, AI Automation and Vibe Coding. A highlight: designing and building high-converting Arabic landing pages for the company programs, with smooth animations, WhatsApp CTAs and dedicated thank-you pages.',
+      },
+      tags: ['Media Buying', 'AI Automation', 'Vibe Coding', 'Landing Pages'],
+      link: null,
+    },
+    {
+      period: { ar: 'أكتوبر 2025 — فبراير 2026', en: 'Oct 2025 — Feb 2026' },
+      role: { ar: 'تدريب تطوير الأعمال — Business Development', en: 'Business Development Training' },
+      org: 'BDI',
+      type: { ar: 'تدريب — 120 ساعة', en: 'Training — 120 hours' },
+      desc: {
+        ar: 'تدريب عملي في مجال تطوير الأعمال (Business Development) بمجموع 120 ساعة على مدار 5 شهور، غطّى بناء الأنظمة التجارية، وتطوير الأعمال، وأدوات المتابعة، وقياس الأداء وتطبيقات الـ AI في العمل التجاري.',
+        en: 'Hands-on Business Development training totalling 120 hours over 5 months, covering building commercial systems, business development, tracking tools, performance measurement and AI applications in business.',
+      },
+      tags: ['Business Development', 'Commercial Systems', '120 hours'],
+      link: null,
+    },
+    {
+      period: { ar: '2025 — 2026', en: '2025 — 2026' },
+      role: { ar: 'مطوّر شات بوت ذكي', en: 'Smart Chatbot Developer' },
+      org: 'ITI',
+      type: { ar: 'مشروع تدريبي', en: 'Training project' },
+      desc: {
+        ar: 'بناء نظام إدارة مخازن متكامل مع مساعد ذكي (AI Inventory Assistant) مربوط بقاعدة بيانات حقيقية، يجاوب على أسئلة المنتجات والفئات والموردين والمخزون والمبيعات والمشتريات بشكل لحظي، مع لوحة تحكم كاملة للمخازن.',
+        en: 'Built a full inventory-management system with a smart assistant (AI Inventory Assistant) connected to a real database, answering live questions about products, categories, suppliers, stock, sales and purchases, alongside a complete inventory dashboard.',
+      },
+      tags: ['Python', 'Flask', 'AI Chatbot', 'Dashboard'],
+      link: null,
+    },
+    {
+      period: { ar: 'أكتوبر 2022 — مارس 2027', en: 'Oct 2022 — March 2027' },
+      role: { ar: 'طالب هندسة إلكترونيات — قسم حاسبات', en: 'Electronics Engineering Student — Computers' },
+      org: { ar: 'جامعة المنوفية', en: 'Menoufia University' },
+      type: { ar: 'تعليم جامعي', en: 'University' },
+      desc: {
+        ar: 'بدأت الدراسة في أكتوبر 2022، والبرنامج 5 سنوات لكن هخلّصه في 4 سنوات ونصف، والتخرّج المتوقع مارس 2027. مشروع التخرّج: شات بوت طبي ذكي — وأحسن شات بوت اشتغلت عليه.',
+        en: 'Started in October 2022; the program is 5 years but I will finish it in 4.5 years, graduating March 2027. Graduation project: a smart medical chatbot — the best chatbot I have built.',
+      },
+      tags: ['Engineering', 'Computer Science', 'AI'],
+      link: null,
+    },
+  ],
+}
+
+export const projects = {
+  kicker: { ar: 'أعمالي', en: 'My work' },
+  title: { ar: 'المشاريع المميزة', en: 'Featured projects' },
+  subtitle: {
+    ar: 'مشاريع حقيقية بنيتها من الصفر — تطبيقات، أتمتة، وتحليل بيانات.',
+    en: 'Real projects built from scratch — apps, automation and data analysis.',
+  },
+  filterAll: { ar: 'الكل', en: 'All' },
+  viewCode: { ar: 'الكود', en: 'Code' },
+  viewLive: { ar: 'مشاهدة مباشرة', en: 'Live demo' },
+  viewDetails: { ar: 'التفاصيل', en: 'Details' },
+  featuredLabel: { ar: 'مميّز', en: 'Featured' },
+  filterByCat: { ar: 'حسب التخصص', en: 'By specialty' },
+  filterByOrg: { ar: 'حسب الجهة', en: 'By source' },
+  noResults: { ar: 'لا توجد مشاريع مطابقة', en: 'No matching projects' },
+  catFilters: [
+    { id: 'all', ar: 'الكل', en: 'All' },
+    { id: 'ai', ar: 'ذكاء اصطناعي', en: 'AI' },
+    { id: 'software', ar: 'برمجيات', en: 'Software' },
+    { id: 'data', ar: 'بيانات', en: 'Data' },
+    { id: 'testing', ar: 'اختبار', en: 'Testing' },
+  ],
+  orgFilters: [
+    { id: 'all', ar: 'كل الجهات', en: 'All sources' },
+    { id: 'bdi', ar: 'BDI', en: 'BDI' },
+    { id: 'grad', ar: 'مشروع التخرّج', en: 'Graduation' },
+    { id: 'iti', ar: 'ITI', en: 'ITI' },
+    { id: 'outlier', ar: 'Outlier', en: 'Outlier' },
+    { id: 'testerwork', ar: 'Tester Work', en: 'Tester Work' },
+    { id: 'personal', ar: 'مشروع شخصي', en: 'Personal' },
+  ],
+  items: [
+    {
+      id: 'medical-chatbot',
+      cat: 'ai',
+      emoji: '🩺',
+      title: { ar: 'شات بوت طبي ذكي', en: 'Medical Chatbot' },
+      subtitle: { ar: 'مشروع التخرّج', en: 'Graduation Project' },
+      org: { ar: 'مشروع التخرّج · جامعة المنوفية', en: 'Graduation · Menoufia University' },
+      orgKey: 'grad',
+      desc: {
+        ar: 'شات بوت طبي مدعوم بالذكاء الاصطناعي بيجاوب على استفسارات المستخدمين الطبية، مكوّن من أجزاء متعددة يتعاون عليها فريق، ومسؤول عن جزء الشات بوت.',
+        en: 'An AI-powered medical chatbot that answers users’ health-related questions. Built as a multi-part team project, where I own the chatbot component.',
+      },
+      tech: ['Python', 'LLM / RAG', 'NLP', 'APIs'],
+      images: [],
+      links: { code: 'https://github.com/Atlas2Apex/medical_chatbot' },
+      accent: 'violet',
+    },
+    {
+      id: 'inventory-assistant',
+      cat: 'ai',
+      emoji: '🤖',
+      title: { ar: 'مساعد المخازن الذكي', en: 'AI Inventory Assistant' },
+      subtitle: { ar: 'مشروع ITI', en: 'ITI project' },
+      org: { ar: 'ITI', en: 'ITI' },
+      orgKey: 'iti',
+      desc: {
+        ar: 'نظام إدارة مخازن متكامل مع مساعد ذكي (AI Inventory Assistant) يجاوب على أسئلة المنتجات والفئات والموردين والمخزون والمبيعات والمشتريات بشكل لحظي من قاعدة البيانات، مع لوحة تحكم كاملة للمخازن تعرض الفئات والموردين والمشتريات والمبيعات والمبالغ.',
+        en: 'A complete inventory-management system with a smart assistant (AI Inventory Assistant) that answers live questions about products, categories, suppliers, stock, sales and purchases from the database, alongside a full inventory dashboard showing categories, suppliers, purchases, sales and totals.',
+      },
+      tech: ['Python', 'Flask', 'SQL', 'AI Chatbot', 'Dashboard'],
+      images: ['projects/chatbot-assistant.png', 'projects/chatbot-dashboard.png'],
+      links: {},
+      accent: 'cyan',
+    },
+    {
+      id: 'gym-system',
+      cat: 'software',
+      emoji: '🏋️',
+      title: { ar: 'نظام إدارة صالة رياضية', en: 'Gym Management System' },
+      subtitle: { ar: 'تطبيق سطح مكتب', en: 'Desktop application' },
+      org: { ar: 'مشروع شخصي', en: 'Personal project' },
+      orgKey: 'personal',
+      desc: {
+        ar: 'نظام كامل لإدارة الأعضاء والاشتراكات والحضور بالباركود، بواجهة داكنة حديثة وقاعدة بيانات SQLite. بيتبّع الأعضاء النشطين والمنتهيين والقرب من الانتهاء والحضور الأسبوعي.',
+        en: 'A full desktop app for managing members, subscriptions and barcode attendance with a modern dark UI on SQLite. Tracks active, expired and expiring members plus weekly attendance.',
+      },
+      tech: ['Python', 'PyQt', 'SQLite', 'Barcode'],
+      images: ['projects/gym-dashboard.png', 'projects/gym-addmember.png'],
+      links: {},
+      accent: 'pink',
+    },
+    {
+      id: 'whatsapp-funnel',
+      cat: 'data',
+      emoji: '📊',
+      title: { ar: 'محلّل مسار مبيعات واتساب', en: 'WhatsApp Sales Funnel Analyzer' },
+      subtitle: { ar: 'أداة أوفلاين بالكامل', en: 'Fully offline tool' },
+      org: { ar: 'BDI (اختبار عمل)', en: 'BDI (work test)' },
+      orgKey: 'bdi',
+      desc: {
+        ar: 'نظام من جزئين: استخراج محادثات واتساب لكل عميل من نسخة آيفون محلية بأمان (بدون خطر حظر)، ثم تصنيف كل عميل على مراحل المسار التسويقي وإخراج داشبورد تفاعلي وتقرير Excel من 9 شيتات ونسب تحويل ورؤى آلية.',
+        en: 'A two-part system: safely extract each customer’s WhatsApp chats from a local iPhone backup (no ban risk), then classify every customer across the sales funnel and output an interactive dashboard, a 9-sheet Excel report, conversion rates and auto insights.',
+      },
+      tech: ['Python', 'SQLite', 'xlsxwriter', 'HTML Dashboard', 'Data Analysis'],
+      images: [],
+      links: {},
+      accent: 'emerald',
+    },
+    {
+      id: 'landing-pages',
+      cat: 'software',
+      emoji: '🎯',
+      title: { ar: 'صفحات هبوط BDI', en: 'BDI Landing Pages' },
+      subtitle: { ar: '3 صفحات — تصاميم عالية التحويل', en: '3 pages — high-converting' },
+      org: { ar: 'BDI', en: 'BDI' },
+      orgKey: 'bdi',
+      featured: true,
+      desc: {
+        ar: 'صفحات هبوط عربية احترافية لبرامج BDI: صفحة Commercial Systems Management & AI وصفحة شكر منشورتين لايف على موقع الشركة، وصفحة برنامج تطوير الأعمال الحضوري (نسخة محلية) — كلها بأنيميشن وحركات ناعمة وCTA واتساب.',
+        en: 'Professional Arabic landing pages for BDI programs: the Commercial Systems Management & AI page and a thank-you page live on the company site, plus the offline Business Development program page (local build) — all with animations, smooth motion and WhatsApp CTAs.',
+      },
+      tech: ['HTML5', 'CSS3', 'JavaScript', 'Animations'],
+      images: [],
+      links: {},
+      linkList: {
+        ar: [
+          { label: 'Commercial Systems & AI', href: 'https://programs.bd.institute/commercial-msa-147638', external: true },
+          { label: 'صفحة الشكر (Thank-you)', href: 'https://programs.bd.institute/thank-you-page', external: true },
+          { label: 'BDP — تطوير الأعمال الحضوري (لوكال)', href: './projects/pages/bdp-offline-bue.html', external: false },
+        ],
+        en: [
+          { label: 'Commercial Systems & AI', href: 'https://programs.bd.institute/commercial-msa-147638', external: true },
+          { label: 'Thank-you page', href: 'https://programs.bd.institute/thank-you-page', external: true },
+          { label: 'BDP — Offline Program (local)', href: './projects/pages/bdp-offline-bue.html', external: false },
+        ],
+      },
+      accent: 'amber',
+    },
+    {
+      id: 'ai-evaluation',
+      cat: 'ai',
+      emoji: '🧠',
+      title: { ar: 'تقييم مخرجات الذكاء الاصطناعي', en: 'AI Output Evaluation' },
+      subtitle: { ar: 'Outlier', en: 'Outlier' },
+      org: { ar: 'Outlier', en: 'Outlier' },
+      orgKey: 'outlier',
+      desc: {
+        ar: 'تقييم ومراجعة مخرجات نماذج الذكاء الاصطناعي بدقة عالية وكتابة تعليقات مفصّلة. متوسط التقييم 3.89/4 بمستهدف 2.00، ودرجة أبعاد 83/100 بمستهدف 70.',
+        en: 'High-accuracy evaluation and review of LLM outputs with detailed feedback. Average score 3.89/4 versus a 2.00 target, and an 83/100 dimension score versus a 70 target.',
+      },
+      tech: ['LLM Evaluation', 'Quality Assurance', 'Feedback'],
+      images: ['projects/evaluator-qa.png'],
+      links: {},
+      accent: 'indigo',
+    },
+    {
+      id: 'qa-testing',
+      cat: 'testing',
+      emoji: '🐞',
+      title: { ar: 'اختبار البرمجيات واكتشاف الأخطاء', en: 'Software QA & Bug Reports' },
+      subtitle: { ar: 'test IO · uTest · Tester Work', en: 'test IO · uTest · Tester Work' },
+      org: { ar: 'test IO · uTest · Tester Work', en: 'test IO · uTest · Tester Work' },
+      orgKey: 'testerwork',
+      desc: {
+        ar: 'اختبارات وظيفية ودفع و KYC على تطبيقات حقيقية عبر منصات test IO وuTest وTester Work، مع إثبات أرباح من إحدى المنصات ومكافأة «Bug محبوب» لأحد الأخطاء المكتشفة.',
+        en: 'Functional, payment and KYC testing on real apps across test IO, uTest and Tester Work, with verified earnings from one platform and a "Liked Bug" bonus for a reported bug.',
+      },
+      tech: ['Functional Testing', 'Payment Testing', 'KYC', 'Test Cases'],
+      images: ['certificates/testerwork-earnings.png'],
+      links: {},
+      accent: 'sky',
+    },
+  ],
+}
+
+export const certificates = {
+  kicker: { ar: 'إنجازات موثّقة', en: 'Verified achievements' },
+  title: { ar: 'الشهادات والدورات', en: 'Certificates & courses' },
+  subtitle: {
+    ar: 'مجموعة شهادات معتمدة من جهات محلية ودولية — اضغط أي شهادة لعرضها.',
+    en: 'A set of certified credentials from local and international providers — click any to preview.',
+  },
+  filters: [
+    { id: 'all', ar: 'الكل', en: 'All' },
+    { id: 'ai', ar: 'ذكاء اصطناعي', en: 'AI & ML' },
+    { id: 'data', ar: 'بيانات', en: 'Data' },
+    { id: 'software', ar: 'برمجة', en: 'Software' },
+    { id: 'business', ar: 'أعمال', en: 'Business' },
+    { id: 'testing', ar: 'اختبار', en: 'Testing' },
+    { id: 'language', ar: 'لغات', en: 'Language' },
+    { id: 'other', ar: 'أخرى', en: 'Other' },
+  ],
+  pdfHint: { ar: 'ملف PDF — اضغط للفتح', en: 'PDF file — click to open' },
+  items: [
+    { cat: 'software', file: 'certificates/alx-frontend.png', type: 'image', org: 'ALX', year: '2024', ar: 'هندسة البرمجيات — تخصص Front-End (12 شهر)', en: 'Software Engineering — Front-End Specialization (12 months)' },
+    { cat: 'ai', file: 'certificates/million-prompters.png', type: 'image', org: 'Dubai Future Foundation', year: '2024', ar: 'مليون مبرمج برومبت (One Million Prompters)', en: 'One Million Prompters' },
+    { cat: 'ai', file: 'certificates/huawei-ai.png', type: 'image', org: 'Huawei Talent Online', year: '2024', ar: 'أساسيات الذكاء الاصطناعي: نظرة عامة', en: 'AI Basics: Overview of AI' },
+    { cat: 'ai', file: 'certificates/huawei-ai-cra.png', type: 'image', org: 'Huawei Talent Online', year: '2024', ar: 'أساسيات الذكاء الاصطناعي (CRA Training Program)', en: 'AI Basic: Overview of AI (CRA Training Program)' },
+    { cat: 'software', file: 'certificates/huawei-python.png', type: 'image', org: 'Huawei Talent Online', year: '2024', ar: 'أساسيات البرمجة بلغة Python', en: 'Python Programming Basics' },
+    { cat: 'software', file: 'certificates/iti-backend.jpeg', type: 'image', org: 'ITI', year: '2026', ar: 'إتمام تدريب ITI — تراك الباك اند', en: 'ITI Training Completion — Back-end Track' },
+    { cat: 'business', file: 'certificates/bdi-business-development.jpg', type: 'image', org: 'BDI', year: '2026', ar: 'إتمام تدريب تطوير الأعمال (Business Development) — 120 ساعة', en: 'Business Development Training — 120 hours' },
+    { cat: 'data', file: 'certificates/depi-data-scientist.jpg', type: 'image', org: 'MCIT — Digital Egypt Pioneers', year: '2025', ar: 'برنامج روّاد مصر الرقمية — عالم بيانات', en: 'Digital Egypt Pioneers Program — Data Scientist' },
+    { cat: 'data', file: 'certificates/coursera-data-science.pdf', type: 'pdf', org: 'Coursera', year: '', ar: 'أساسيات علم البيانات', en: 'Foundations of Data Science' },
+    { cat: 'ai', file: 'certificates/creativa-ai-ml.pdf', type: 'pdf', org: 'Creativa', year: '', ar: 'الذكاء الاصطناعي وتعلّم الآلة', en: 'AI & Machine Learning' },
+    { cat: 'software', file: 'certificates/creativa-web-dev.pdf', type: 'pdf', org: 'Creativa', year: '', ar: 'تطوير الويب', en: 'Web Development' },
+    { cat: 'other', file: 'certificates/creativa-freelance.pdf', type: 'pdf', org: 'Creativa', year: '', ar: 'العمل الحر (Freelance)', en: 'Freelance' },
+    { cat: 'ai', file: 'certificates/linkedin-ai-foundations.pdf', type: 'pdf', org: 'LinkedIn Learning', year: '', ar: 'أساسيات الذكاء الاصطناعي: تعلّم الآلة', en: 'AI Foundations: Machine Learning' },
+    { cat: 'ai', file: 'certificates/linkedin-wolfram-ml.pdf', type: 'pdf', org: 'LinkedIn Learning', year: '', ar: 'تعلّم الآلة المدمج في لغة Wolfram', en: 'Built-in Machine Learning in Wolfram Language' },
+    { cat: 'ai', file: 'certificates/linkedin-calculus.pdf', type: 'pdf', org: 'LinkedIn Learning', year: '', ar: 'أساسيات تعلّم الآلة: التفاضل والتكامل', en: 'ML Foundations: Calculus' },
+    { cat: 'ai', file: 'certificates/linkedin-linear-algebra.pdf', type: 'pdf', org: 'LinkedIn Learning', year: '', ar: 'أساسيات تعلّم الآلة: الجبر الخطي', en: 'ML Foundations: Linear Algebra' },
+    { cat: 'ai', file: 'certificates/linkedin-probability.pdf', type: 'pdf', org: 'LinkedIn Learning', year: '', ar: 'أساسيات تعلّم الآلة: الاحتمالات', en: 'ML Foundations: Probability' },
+    { cat: 'ai', file: 'certificates/linkedin-statistics.pdf', type: 'pdf', org: 'LinkedIn Learning', year: '', ar: 'أساسيات تعلّم الآلة: الإحصاء', en: 'ML Foundations: Statistics' },
+    { cat: 'ai', file: 'certificates/wolfram-statistical-foundations.pdf', type: 'pdf', org: 'Wolfram Research', year: '', ar: 'شهادة مهنية: الأسس الإحصائية لتعلّم الآلة', en: 'ML Statistical Foundations Professional Certificate' },
+    { cat: 'testing', file: 'certificates/testerwork-functional.png', type: 'image', org: 'Tester Work · Global App Testing', year: '2026', ar: 'الاختبار الوظيفي والاستكشافي', en: 'Functional Testing with Tester Work' },
+    { cat: 'testing', file: 'certificates/testerwork-payment.png', type: 'image', org: 'Tester Work · Global App Testing', year: '2026', ar: 'اختبار عمليات الدفع', en: 'Payment Testing with Tester Work' },
+    { cat: 'testing', file: 'certificates/testerwork-kyc.png', type: 'image', org: 'Tester Work · Global App Testing', year: '2026', ar: 'اختبار التحقق من العملاء (KYC)', en: 'Know Your Customer (KYC) Testing' },
+    { cat: 'language', file: 'certificates/english-benha.jpg', type: 'image', org: 'Benha University · EAC', year: '', ar: 'اللغة الإنجليزية العامة — 12 مستوى', en: 'General English — 12 Levels' },
+    { cat: 'language', file: 'certificates/depi-business-english.pdf', type: 'pdf', org: 'Digital Egypt Pioneers · Berlitz', year: '2025', ar: 'مسار إنجليزي للأعمال — روّاد مصر الرقمية (Berlitz)', en: 'Business English Track — Digital Egypt Pioneers (Berlitz)' },
+    { cat: 'language', file: 'certificates/efset-english.pdf', type: 'pdf', org: 'EF SET', year: '', ar: 'شهادة إتقان اللغة الإنجليزية', en: 'EF SET English Certificate' },
+  ],
+}
+
+export const contactSection = {
+  kicker: { ar: 'خلّينا نتواصل', en: "Let's talk" },
+  title: { ar: 'عندك فكرة أو فرصة؟', en: 'Have an idea or an opportunity?' },
+  subtitle: {
+    ar: 'متاح للعمل الحر، التعاون في المشاريع، والفرص التدريبية. ابعتلي رسالة وهرد عليك في أقرب وقت.',
+    en: 'Available for freelance work, project collaborations and internships. Send a message and I will get back to you shortly.',
+  },
+  nameLabel: { ar: 'الاسم', en: 'Name' },
+  emailLabel: { ar: 'البريد الإلكتروني', en: 'Email' },
+  subjectLabel: { ar: 'الموضوع', en: 'Subject' },
+  messageLabel: { ar: 'الرسالة', en: 'Message' },
+  send: { ar: 'إرسال الرسالة', en: 'Send message' },
+  sending: { ar: 'جارٍ الإرسال...', en: 'Sending...' },
+  success: { ar: 'تم إرسال رسالتك بنجاح! هرد عليك قريب.', en: "Message sent! I'll get back to you soon." },
+  error: { ar: 'حصلت مشكلة، جرّب تاني أو تواصل واتساب.', en: 'Something went wrong — try again or reach me on WhatsApp.' },
+  whatsapp: { ar: 'راسلني واتساب', en: 'Message on WhatsApp' },
+  emailBtn: { ar: 'أرسل إيميل', en: 'Send an email' },
+  copy: { ar: 'نسخ', en: 'Copy' },
+  copied: { ar: 'تم النسخ ✓', en: 'Copied ✓' },
+}
+
+export const footer = {
+  rights: { ar: 'جميع الحقوق محفوظة', en: 'All rights reserved' },
+  built: { ar: 'مصمّم ومبني بواسطة محمد إبراهيم', en: 'Designed & built by Mohamed Ibrahim' },
+  backTop: { ar: 'لأعلى', en: 'Back to top' },
+}
+
+export function tr(node, lang) {
+  if (node == null) return node
+  if (typeof node === 'string') return node
+  return node[lang] ?? node.en ?? node
+}
