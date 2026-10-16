@@ -9,11 +9,11 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-bottom container">
-        <span>© {year} {contact.name[lang]} — {footer.rights[lang]}</span>
-        <span>{footer.built[lang]}</span>
+        <span className="fb-left">© {year} {contact.name[lang]} — {footer.rights[lang]}</span>
         <button className="to-top" onClick={scrollToTop}>
           <FiArrowUp /> {footer.backTop[lang]}
         </button>
+        <span className="fb-right">{footer.built[lang]}</span>
       </div>
     </footer>
   )
