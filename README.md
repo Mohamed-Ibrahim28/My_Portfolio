@@ -10,8 +10,7 @@ A modern, bilingual (Arabic / English) personal portfolio for **Mohamed Ibrahim*
 
 | Platform | URL |
 | --- | --- |
-| Netlify | https://ephemeral-sundae-719983.netlify.app/ |
-| GitHub Pages | https://mohamed-ibrahim28.github.io/My_Portfolio/ |
+| Live demo (GitHub Pages) | https://mohamed-ibrahim28.github.io/My_Portfolio/ |
 | Source Code | https://github.com/Mohamed-Ibrahim28/My_Portfolio |
 
 ---
@@ -32,7 +31,7 @@ A modern, bilingual (Arabic / English) personal portfolio for **Mohamed Ibrahim*
 - **Framer Motion** — animations
 - **React Icons** — icon set
 - Plain **CSS** (custom design system, no UI framework)
-- Deployed on **Netlify** & **GitHub Pages**
+- Deployed on **GitHub Pages**
 
 ## 📁 Project Structure
 
@@ -52,7 +51,6 @@ portfolio/
 │  ├─ main.jsx
 │  └─ index.css
 ├─ index.html
-├─ netlify.toml
 └─ vite.config.js
 ```
 
@@ -74,8 +72,7 @@ npm run preview
 
 ## 📦 Deployment
 
-- **Netlify** — `npm run build` then drag the `dist` folder to [app.netlify.com/drop](https://app.netlify.com/drop), or connect the repo (config in `netlify.toml`).
-- **GitHub Pages** — automatic via the workflow in `.github/workflows/deploy.yml` on every push to `main`.
+- **GitHub Pages** — automated via the workflow in `.github/workflows/deploy.yml`; every push to `main` builds and publishes the site.
 
 ## 📬 Contact
 
